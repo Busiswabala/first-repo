@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Profile Card</title>
+    <style>
+      .active-status {
+        background-color: palegreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="profileCard">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/055/767/968/non_2x/abstract-avatar-with-headset-digital-profile-icon-png.png"
+        id="profileImage"
+      />
+      <h2 id="profileName">John Doe</h2>
+      <p id="profileRole">Software Developer</p>
+      <p id="profileBio">
+        Passionate about coding and learning new technologies
+      </p>
+      <button id="updateNameBtn">Update Name</button>
+      <button id="updateRoleBtn">Update Role</button>
+      <button id="toggleStatusBtn">Toggle Active Status</button>
+      <button id="changeImageBtn">Change Image</button>
+    </div>
+    <script src="./dynamic_profile_card.js"></script>
+  </body>
+</html>
